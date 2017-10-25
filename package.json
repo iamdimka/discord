@@ -1,0 +1,23 @@
+{
+  "name": "@iamdimka/discord",
+  "version": "0.1.1",
+  "description": "Small discord lib",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdimka/discord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdimka/discord/issues"
+  },
+  "homepage": "https://github.com/iamdimka/discord#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.47"
+  }
+}
