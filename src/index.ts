@@ -14,7 +14,7 @@ export type DiscordEmbed = {
   fields?: {
     name?: string
     value?: string
-    inline?: true
+    inline?: boolean
   }[]
   image?: {
     url: string
@@ -43,7 +43,7 @@ export class Discord {
   }
 
   send(payload: string | {
-    content: string
+    content?: string
     username?: string
     avatarURL?: string
     tts?: boolean
